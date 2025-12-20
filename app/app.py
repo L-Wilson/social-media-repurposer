@@ -4,7 +4,7 @@ import json
 
 import streamlit as st
 from agents import Agent, Runner
-from social_media_prompt import SOCIAL_MEDIA_REPURPOSER_PROMPT
+from app.social_media_prompt import SOCIAL_MEDIA_REPURPOSER_PROMPT
 
 # --- Config / prompt ---------------------------------------------------------
 
