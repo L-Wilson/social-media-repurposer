@@ -1,26 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Environment variables
+# env
 .env
-.env.*
+.envrc
 
-# Streamlit
-.streamlit/secrets.toml
-.streamlit/cache/
-
-# Logs
-*.log
-logs/
-
-# OS / Editor
-.DS_Store
-.idea/
-.vscode/
-*.swp
+# tf
+tfplan
+.terraform
+.terraform.lock.hcl

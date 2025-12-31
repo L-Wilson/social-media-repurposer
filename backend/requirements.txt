@@ -1,0 +1,17 @@
+# FastAPI and web framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.12.4
+pydantic-settings==2.6.0
+
+# OpenAI and agents
+openai==2.7.1
+openai-agents==0.5.0
+
+# HTTP and async
+httpx==0.28.1
+httpx-sse==0.4.3
+
+# Utilities
+python-dotenv==1.2.1
+tenacity==9.1.2
