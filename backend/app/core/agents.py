@@ -37,8 +37,10 @@ async def repurpose_content(
         Exception: If agent execution fails
     """
     # Add platform filtering to the input
+    # Always include meta-description in addition to user-selected platforms
+    all_platforms = list(set(platforms + ["meta-description"]))
     platform_instruction = (
-        "\n\nGenerate posts ONLY for these platforms: " + ", ".join(platforms)
+        "\n\nGenerate posts ONLY for these platforms: " + ", ".join(all_platforms)
     )
 
     # Run the agent with the combined input
